@@ -1,0 +1,14 @@
+{"question": "What does error code 809 mean on the VPN?", "expected_source": "vpn_setup.md"}
+{"question": "How do I connect the VPN from home?", "expected_source": "vpn_setup.md"}
+{"question": "How many characters must a password have?", "expected_source": "password_policy.md"}
+{"question": "When does an account get locked and for how long?", "expected_source": "password_policy.md"}
+{"question": "How do I set up the authenticator app?", "expected_source": "mfa_enrolment.md"}
+{"question": "What should I do if I lost my phone with the authenticator?", "expected_source": "mfa_enrolment.md"}
+{"question": "My print job is stuck in the queue, what can I do?", "expected_source": "printer_setup.md"}
+{"question": "How do I release a secure print job?", "expected_source": "printer_setup.md"}
+{"question": "How big is my mailbox and when does Outlook warn me?", "expected_source": "outlook_mailbox.md"}
+{"question": "How do I set an out of office reply?", "expected_source": "outlook_mailbox.md"}
+{"question": "What do I have to return when I leave the company?", "expected_source": "laptop_returns.md"}
+{"question": "What happens if my laptop is stolen?", "expected_source": "laptop_returns.md"}
+{"question": "What is on the cafeteria menu today?", "expected_source": null}
+{"question": "How many vacation days do employees get?", "expected_source": null}

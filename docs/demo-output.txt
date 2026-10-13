@@ -1,0 +1,23 @@
+Offline demo captured on 2026-10-13 using Python 3.12.
+Synthetic inputs; not a production benchmark.
+
+$ python -m runbook_rag ingest
+Indexed 18 chunks into ./index
+
+$ python -m runbook_rag ask What does error code 809 mean on the VPN?
+Error code 809 usually means a router blocks the connection, so try a mobile hotspot. [1] If the same error appears on two networks, write down the error code and contact the network team. [1]
+  [1] vpn_setup.md#3 (VPN setup and troubleshooting) similarity 0.282
+  [2] vpn_setup.md#1 (VPN setup and troubleshooting) similarity 0.154
+  [3] vpn_setup.md#4 (VPN setup and troubleshooting) similarity 0.053
+
+$ python -m runbook_rag eval
+{
+  "embeddings": "hashing",
+  "top_k": 3,
+  "answerable_questions": 12,
+  "hit_rate@3": 1.0,
+  "mrr": 0.958,
+  "out_of_scope_questions": 2,
+  "out_of_scope_refused": "2/2",
+  "misses": []
+}
